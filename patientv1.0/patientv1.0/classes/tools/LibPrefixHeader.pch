@@ -1,0 +1,80 @@
+//
+//  LibPrefixHeader.pch
+//  patientv1.0
+//  自定义的头文件，   常用的宏      待补充
+//  Created by liyongli on 15/7/3.
+//  Copyright (c) 2015年 ask. All rights reserved.
+//
+
+#ifndef patientv1_0_LibPrefixHeader_pch
+#define patientv1_0_LibPrefixHeader_pch
+//公用的类
+#import "LibFun.h"
+#import "LibuiFun.h"
+#import <objc/message.h>
+
+
+#define  TOP_BGCOLOR @"#fa4f51"
+
+
+
+
+
+
+//#define kFont(x) [UIFont fontWithName:@"FZLTXHK" size:x]//自定义font大小
+#define kFont(x) [UIFont systemFontOfSize:x]//自定义font大小
+#define kScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+
+#define W(obj)   (!obj?0:(obj).frame.size.width)
+#define H(obj)   (!obj?0:(obj).frame.size.height)
+#define X(obj)   (!obj?0:(obj).frame.origin.x)
+#define Y(obj)   (!obj?0:(obj).frame.origin.y)
+#define XW(obj) (X(obj)+W(obj))
+#define YH(obj) (Y(obj)+H(obj))
+#define BoldFont(x) [UIFont boldSystemFontOfSize:x]
+#define kNavH 44
+#define kStatusH 20
+#define kScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define kScreenWidth [[UIScreen mainScreen] bounds].size.width
+
+
+
+#define ksaveLocal(key,value) [[NSUserDefaults standardUserDefaults] setObject:value forKey:key]
+#define kgetLocalData(key) [[NSUserDefaults standardUserDefaults] objectForKey:key];
+
+
+
+#define privateFlagInfo   @"c670dvg5f2"
+#define kToken            @"tokenId"
+#define kUUID             @"kuuid"
+
+
+
+
+// 1.日志输出宏定义
+#ifdef DEBUG
+// 调试状态
+#define MyLog(...) NSLog(__VA_ARGS__)
+#else
+// 发布状态
+#define MyLog(...)
+#endif
+
+// 3.日志输出宏定义
+#ifdef DEBUG
+//INFO
+#define NSLog(FORMAT, ...)  fprintf(stderr,"[%s INF0 C:%s L:%d]:%s\n", __TIME__, [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+//WARN
+#define NSLogWarn(FORMAT, ...)  fprintf(stderr,"[%s WARN C:%s L:%d]:%s\n", __TIME__, [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+//ERROR
+#define NSLogError(FORMAT, ...)  fprintf(stderr,"[%s ERROR C:%s L:%d]:%s\n", __TIME__, [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(...)
+#endif
+
+// 消息回调 objc_msgSend
+#define msgSend(...) ((void (*)(void *, SEL, NSObject *))objc_msgSend)(__VA_ARGS__)
+#define msgTarget(target) (__bridge void *)(target)
+
+#endif

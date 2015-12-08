@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/AskAppIOSPatient/!svn/ver/36/patient/Classes/Other/Lib/AFNetworking
+END
+AFHTTPSessionManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFHTTPSessionManager.m
+END
+AFURLResponseSerialization.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/AskAppIOSPatient/!svn/ver/36/patient/Classes/Other/Lib/AFNetworking/AFURLResponseSerialization.m
+END
+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFNetworking.h
+END
+AFSecurityPolicy.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFSecurityPolicy.h
+END
+AFSecurityPolicy.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFSecurityPolicy.m
+END
+AFURLSessionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFURLSessionManager.h
+END
+AFURLConnectionOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFURLConnectionOperation.h
+END
+AFHTTPRequestOperationManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFHTTPRequestOperationManager.h
+END
+AFNetworkReachabilityManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFNetworkReachabilityManager.h
+END
+AFURLSessionManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFURLSessionManager.m
+END
+AFURLConnectionOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFURLConnectionOperation.m
+END
+AFHTTPRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFHTTPRequestOperation.h
+END
+AFHTTPRequestOperationManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFHTTPRequestOperationManager.m
+END
+AFURLRequestSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFURLRequestSerialization.h
+END
+AFNetworkReachabilityManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFNetworkReachabilityManager.m
+END
+AFURLRequestSerialization.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFURLRequestSerialization.m
+END
+AFHTTPSessionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFHTTPSessionManager.h
+END
+AFHTTPRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFHTTPRequestOperation.m
+END
+AFURLResponseSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/AskAppIOSPatient/!svn/ver/1/patient/Classes/Other/Lib/AFNetworking/AFURLResponseSerialization.h
+END
